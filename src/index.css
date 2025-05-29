@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.district-tooltip {
+  font-size: 14px;
+  font-weight: bold;
+  background: white;
+  border-radius: 5px;
+  padding: 4px;
+  color: black;
+}
+.map-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.leaflet-interactive:focus {
+  outline: none !important;
+}
+
+
+
+
