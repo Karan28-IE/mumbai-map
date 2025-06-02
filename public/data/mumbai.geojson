@@ -11,7 +11,7 @@
       "type": "Feature",
       "properties": {
         "gid": 1,
-        "name": "A"
+        "name": "colaba"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1894,7 +1894,7 @@
       "type": "Feature",
       "properties": {
         "gid": 2,
-        "name": "B"
+        "name": "sandhurst Road"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2380,7 +2380,7 @@
       "type": "Feature",
       "properties": {
         "gid": 3,
-        "name": "C"
+        "name": "Marine Lines"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2942,7 +2942,7 @@
       "type": "Feature",
       "properties": {
         "gid": 4,
-        "name": "D"
+        "name": "Grand Road"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3793,7 +3793,7 @@
       "type": "Feature",
       "properties": {
         "gid": 5,
-        "name": "E"
+        "name": "Byculla"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4674,7 +4674,7 @@
       "type": "Feature",
       "properties": {
         "gid": 6,
-        "name": "F/S"
+        "name": "Parel"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5353,7 +5353,7 @@
       "type": "Feature",
       "properties": {
         "gid": 7,
-        "name": "G/S"
+        "name": "Elphistone"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5980,7 +5980,7 @@
       "type": "Feature",
       "properties": {
         "gid": 8,
-        "name": "F/N"
+        "name": "Matunga"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7198,7 +7198,7 @@
       "type": "Feature",
       "properties": {
         "gid": 9,
-        "name": "G/N"
+        "name": "Dadar"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7745,7 +7745,7 @@
       "type": "Feature",
       "properties": {
         "gid": 10,
-        "name": "N"
+        "name": "Ghatkopar"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8692,7 +8692,7 @@
       "type": "Feature",
       "properties": {
         "gid": 11,
-        "name": "R/C"
+        "name": "Borivali"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9734,7 +9734,7 @@
       "type": "Feature",
       "properties": {
         "gid": 12,
-        "name": "S"
+        "name": "Bhandhup"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10779,7 +10779,7 @@
       "type": "Feature",
       "properties": {
         "gid": 13,
-        "name": "T"
+        "name": "Mulund"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11907,7 +11907,7 @@
       "type": "Feature",
       "properties": {
         "gid": 14,
-        "name": "K/W"
+        "name": "Andheri West"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12790,7 +12790,7 @@
       "type": "Feature",
       "properties": {
         "gid": 15,
-        "name": "R/N"
+        "name": "Dahisar"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13446,7 +13446,7 @@
       "type": "Feature",
       "properties": {
         "gid": 16,
-        "name": "M/E"
+        "name": "Chembur East"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14210,7 +14210,7 @@
       "type": "Feature",
       "properties": {
         "gid": 17,
-        "name": "M/W"
+        "name": "Chembur West"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15431,7 +15431,7 @@
       "type": "Feature",
       "properties": {
         "gid": 18,
-        "name": "H/E"
+        "name": "Khar"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16045,7 +16045,7 @@
       "type": "Feature",
       "properties": {
         "gid": 19,
-        "name": "K/E"
+        "name": "Andheri East"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17093,7 +17093,7 @@
       "type": "Feature",
       "properties": {
         "gid": 20,
-        "name": "P/S"
+        "name": "Goregaon"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18103,7 +18103,7 @@
       "type": "Feature",
       "properties": {
         "gid": 21,
-        "name": "P/N"
+        "name": "Malad"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20062,7 +20062,7 @@
       "type": "Feature",
       "properties": {
         "gid": 22,
-        "name": "R/S"
+        "name": "Kandivali"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21307,7 +21307,7 @@
       "type": "Feature",
       "properties": {
         "gid": 23,
-        "name": "H/W"
+        "name": "Bandra"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22002,7 +22002,7 @@
       "type": "Feature",
       "properties": {
         "gid": 24,
-        "name": "L"
+        "name": "Kurla"
       },
       "geometry": {
         "type": "MultiPolygon",
