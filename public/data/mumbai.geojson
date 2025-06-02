@@ -11,7 +11,7 @@
       "type": "Feature",
       "properties": {
         "gid": 1,
-        "name": "colaba"
+        "name": "Colaba"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1894,7 +1894,7 @@
       "type": "Feature",
       "properties": {
         "gid": 2,
-        "name": "sandhurst Road"
+        "name": "Sandhurst Road"
       },
       "geometry": {
         "type": "MultiPolygon",
