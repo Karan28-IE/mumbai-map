@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { MapContainer, GeoJSON, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./index.css";
+
+const YEARS = ["2019", "2014", "2009"];
 
 const geoStyle = {
   color: "black",
@@ -35,7 +37,9 @@ function SetMapBounds({ geoData }) {
         }
       });
 
-      map.fitBounds(bounds);
+      if (bounds.length > 0) {
+        map.fitBounds(bounds);
+      }
     }
   }, [geoData, map]);
 
@@ -44,18 +48,27 @@ function SetMapBounds({ geoData }) {
 
 export default function MumbaiWardMap() {
   const [geoData, setGeoData] = useState(null);
+  const [selectedYear, setSelectedYear] = useState("2019");
 
   useEffect(() => {
-    fetch("/data/mumbai.geojson")
-      .then((res) => res.json())
-      .then((data) => setGeoData(data))
-      .catch((err) => console.error("Error fetching GeoJSON:", err));
-  }, []);
+    setGeoData(null); 
+    fetch(`/data/bmc_${selectedYear}.geojson`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP error: ${res.status}`);
+        return res.json();
+      })
+      .then((data) => {
+        console.log("Loaded data for year:", selectedYear);
+        setGeoData(data);
+      })
+      .catch((err) => console.error("Error loading GeoJSON:", err));
+  }, [selectedYear]);
 
   const onEachFeature = (feature, layer) => {
-    const name = feature.properties.name || "Unknown Ward";
+    const name = feature.properties?.name || "Unknown Ward";
+    const winner = feature.properties?.winner || "No Data";
 
-    layer.bindTooltip(name, {
+    layer.bindTooltip(`${name} - Winner: ${winner}`, {
       permanent: false,
       direction: "top",
       className: "district-tooltip",
@@ -68,7 +81,7 @@ export default function MumbaiWardMap() {
       mouseout: (event) => {
         event.target.setStyle({
           ...geoStyle,
-          fillColor: getFillColor(feature.properties.population),
+          fillColor: getFillColor(feature.properties?.population ?? 0),
         });
       },
     });
@@ -79,25 +92,55 @@ export default function MumbaiWardMap() {
     });
   };
 
+  const geoJsonLayer = useMemo(() => {
+    if (!geoData) return null;
+
+    return (
+      <GeoJSON
+        key={selectedYear}
+        data={geoData}
+        style={(feature) => ({
+          ...geoStyle,
+          fillColor: getFillColor(feature.properties?.population ?? 0),
+        })}
+        onEachFeature={onEachFeature}
+      />
+    );
+  }, [geoData, selectedYear]);
+
   return (
-    <MapContainer
-      center={[19.0760, 72.8777]}
-      zoom={11}
-      style={{ height: "100vh", width: "100%", background: "#f4f4f4" }}
-    >
-      {geoData && (
-        <>
-          <GeoJSON
-            data={geoData}
-            style={(feature) => ({
-              ...geoStyle,
-              fillColor: getFillColor(feature.properties.population),
-            })}
-            onEachFeature={onEachFeature}
-          />
-          <SetMapBounds geoData={geoData} />
-        </>
-      )}
-    </MapContainer>
+    <div style={{ display: "flex" }}>
+      <div style={{ flex: 1 }}>
+        <MapContainer
+          center={[19.076, 72.8777]}
+          zoom={11}
+          style={{ height: "100vh", width: "100%", background: "#f4f4f4" }}
+        >
+          {geoJsonLayer}
+          {geoData && <SetMapBounds geoData={geoData} />}
+        </MapContainer>
+      </div>
+
+      <div style={{ width: "200px", background: "linear-gradient(45deg, black, transparent)", padding: "10px" }}>
+        <h3>Select Election Year</h3>
+        {YEARS.map((year) => (
+          <button
+            key={year}
+            style={{
+              margin: "5px",
+              padding: "8px 12px",
+              background: year === selectedYear ? "#16579d" : "#e0e0e0",
+              color: year === selectedYear ? "#fff" : "#000",
+              border: "none",
+              cursor: "pointer",
+              width: "100%",
+            }}
+            onClick={() => setSelectedYear(year)}
+          >
+            {year}
+          </button>
+        ))}
+      </div>
+    </div>
   );
 }
