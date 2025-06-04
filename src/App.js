@@ -51,7 +51,7 @@ export default function MumbaiWardMap() {
   const [selectedYear, setSelectedYear] = useState("2019");
 
   useEffect(() => {
-    setGeoData(null); 
+    setGeoData(null);
     fetch(`/data/bmc_${selectedYear}.geojson`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP error: ${res.status}`);
@@ -109,37 +109,65 @@ export default function MumbaiWardMap() {
   }, [geoData, selectedYear]);
 
   return (
-    <div style={{ display: "flex" }}>
-      <div style={{ flex: 1 }}>
-        <MapContainer
-          center={[19.076, 72.8777]}
-          zoom={11}
-          style={{ height: "100vh", width: "100%", background: "#f4f4f4" }}
-        >
-          {geoJsonLayer}
-          {geoData && <SetMapBounds geoData={geoData} />}
-        </MapContainer>
-      </div>
+    <div style={{ height: "100vh", width: "100%", position: "relative" }}>
+      <MapContainer
+        center={[19.076, 72.8777]}
+        zoom={11}
+        style={{ height: "100%", width: "100%", background: "#f4f4f4" }}
+      >
+        {geoJsonLayer}
+        {geoData && <SetMapBounds geoData={geoData} />}
+      </MapContainer>
 
-      <div style={{ width: "200px", background: "linear-gradient(45deg, black, transparent)", padding: "10px" }}>
-        <h3>Select Election Year</h3>
-        {YEARS.map((year) => (
-          <button
-            key={year}
-            style={{
-              margin: "5px",
-              padding: "8px 12px",
-              background: year === selectedYear ? "#16579d" : "#e0e0e0",
-              color: year === selectedYear ? "#fff" : "#000",
-              border: "none",
-              cursor: "pointer",
-              width: "100%",
-            }}
-            onClick={() => setSelectedYear(year)}
-          >
-            {year}
-          </button>
-        ))}
+      {
+        
+      }
+      <div
+        style={{
+          position: "absolute",
+          top: "10px",
+          left: "70%",
+          transform: "translateX(-50%)",
+          background: "rgba(0, 0, 0, 0.6)",
+          padding: "12px 16px",
+          borderRadius: "10px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          zIndex: 1000,
+          textTransform:"capitalize",
+        }}
+      >
+        <div
+          style={{
+            color: "#fff",
+            fontSize: "16px",
+            fontWeight: "bold",
+            marginBottom: "8px",
+            textAlign: "center",
+          }}
+        >
+          Select the year for Mumbai election
+        </div>
+        <div style={{ display: "flex", gap: "10px" }}>
+          {YEARS.map((year) => (
+            <button
+              key={year}
+              style={{
+                padding: "6px 12px",
+                background: year === selectedYear ? "#16579d" : "#ccc",
+                color: year === selectedYear ? "#fff" : "#000",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+                fontWeight: "bold",
+              }}
+              onClick={() => setSelectedYear(year)}
+            >
+              {year}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

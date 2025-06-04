@@ -18,6 +18,7 @@ code {
   border-radius: 5px;
   padding: 4px;
   color: black;
+  text-transform: capitalize;
 }
 .map-container {
   height: 100vh;
