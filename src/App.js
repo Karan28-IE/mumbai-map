@@ -3,7 +3,7 @@ import { MapContainer, GeoJSON, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./index.css";
 
-const YEARS = ["2019", "2014", "2009"];
+const YEARS = ["2017", "2012", "2007"];
 
 const geoStyle = {
   color: "black",
@@ -46,9 +46,12 @@ function SetMapBounds({ geoData }) {
   return null;
 }
 
+const isTouchDevice = () =>
+  "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
 export default function MumbaiWardMap() {
   const [geoData, setGeoData] = useState(null);
-  const [selectedYear, setSelectedYear] = useState("2019");
+  const [selectedYear, setSelectedYear] = useState("2017");
 
   useEffect(() => {
     setGeoData(null);
@@ -58,37 +61,66 @@ export default function MumbaiWardMap() {
         return res.json();
       })
       .then((data) => {
-        console.log("Loaded data for year:", selectedYear);
         setGeoData(data);
       })
       .catch((err) => console.error("Error loading GeoJSON:", err));
   }, [selectedYear]);
 
   const onEachFeature = (feature, layer) => {
-    const name = feature.properties?.name || "Unknown Ward";
-    const winner = feature.properties?.winner || "No Data";
+    const props = feature.properties;
+    const name = props?.name || "Unknown Ward";
+    const ward = props?.Ward || "N/A";
+    const candidate = props?.["Candidate Name"] || "N/A";
+    const party = props?.Party || "N/A";
+    const areas = props?.Areas || "N/A";
 
-    layer.bindTooltip(`${name} - Winner: ${winner}`, {
-      permanent: false,
-      direction: "top",
-      className: "district-tooltip",
-    });
+    const infoHTML = `
+      <div style="text-align: left;">
+        <strong>Name:</strong> ${name}<br/>
+        <strong>Ward:</strong> ${ward}<br/>
+        <strong>Candidate:</strong> ${candidate}<br/>
+        <strong>Party:</strong> ${party}<br/>
+        <strong>Areas:</strong> ${areas}
+      </div>
+    `;
+
+    const originalColor = getFillColor(props?.population ?? 0);
+
+    if (!isTouchDevice()) {
+      layer.bindTooltip(infoHTML, {
+        permanent: false,
+        direction: "top",
+        className: "district-tooltip",
+      });
+    } else {
+      layer.bindPopup(infoHTML);
+      layer.on("popupopen", (event) => {
+        event.target.setStyle({
+          ...geoStyle,
+          fillColor: "#f54291",
+        });
+      });
+
+      layer.on("popupclose", (event) => {
+        event.target.setStyle({
+          ...geoStyle,
+          fillColor: originalColor,
+        });
+      });
+    }
 
     layer.on({
       mouseover: (event) => {
-        event.target.setStyle({ fillColor: "#ff8000", fillOpacity: 0.8 });
+        if (!isTouchDevice()) {
+          event.target.setStyle({ fillColor: "#ff8000", fillOpacity: 0.8 });
+        }
       },
       mouseout: (event) => {
         event.target.setStyle({
           ...geoStyle,
-          fillColor: getFillColor(feature.properties?.population ?? 0),
+          fillColor: originalColor,
         });
       },
-    });
-
-    layer.on("click", (event) => {
-      event.originalEvent.preventDefault();
-      event.target.closeTooltip();
     });
   };
 
@@ -119,49 +151,15 @@ export default function MumbaiWardMap() {
         {geoData && <SetMapBounds geoData={geoData} />}
       </MapContainer>
 
-      {
-        
-      }
-      <div
-        style={{
-          position: "absolute",
-          top: "10px",
-          left: "70%",
-          transform: "translateX(-50%)",
-          background: "rgba(0, 0, 0, 0.6)",
-          padding: "12px 16px",
-          borderRadius: "10px",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          zIndex: 1000,
-          textTransform:"capitalize",
-        }}
-      >
-        <div
-          style={{
-            color: "#fff",
-            fontSize: "16px",
-            fontWeight: "bold",
-            marginBottom: "8px",
-            textAlign: "center",
-          }}
-        >
-          Select the year for Mumbai election
-        </div>
-        <div style={{ display: "flex", gap: "10px" }}>
+      <div className="year-selector">
+        <div className="year-title">Select the year for Mumbai election</div>
+        <div className="year-buttons">
           {YEARS.map((year) => (
             <button
               key={year}
-              style={{
-                padding: "6px 12px",
-                background: year === selectedYear ? "#16579d" : "#ccc",
-                color: year === selectedYear ? "#fff" : "#000",
-                border: "none",
-                borderRadius: "5px",
-                cursor: "pointer",
-                fontWeight: "bold",
-              }}
+              className={`year-button ${
+                year === selectedYear ? "active" : ""
+              }`}
               onClick={() => setSelectedYear(year)}
             >
               {year}
