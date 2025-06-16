@@ -36,6 +36,7 @@ function SetMapBounds({ geoData }) {
           );
         }
       });
+      
 
       if (bounds.length > 0) {
         map.fitBounds(bounds);
@@ -93,11 +94,14 @@ export default function MumbaiWardMap() {
         className: "district-tooltip",
       });
     } else {
-      layer.bindPopup(infoHTML);
+      layer.bindPopup(infoHTML, {
+        className: "custom-ward-popup" 
+      });
+
       layer.on("popupopen", (event) => {
         event.target.setStyle({
           ...geoStyle,
-          fillColor: "#f54291",
+          fillColor: "#fa3a00",
         });
       });
 
@@ -144,7 +148,7 @@ export default function MumbaiWardMap() {
     <div style={{ height: "100vh", width: "100%", position: "relative" }}>
       <MapContainer
         center={[19.076, 72.8777]}
-        zoom={11}
+        zoom={9}
         style={{ height: "100%", width: "100%", background: "#f4f4f4" }}
       >
         {geoJsonLayer}

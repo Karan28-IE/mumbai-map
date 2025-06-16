@@ -11,7 +11,7 @@
       "type": "Feature",
       "properties": {
         "gid": 1,
-        "name": "A",
+        "name": "Colaba",
         "Ward": "R/North Ward",
         "Ward No": 1,
         "Candidate Name": "Tejaswini Ghosalkar",
@@ -1899,7 +1899,7 @@
       "type": "Feature",
       "properties": {
         "gid": 2,
-        "name": "B",
+        "name": "Sandhurst Road",
         "Ward": "R/North Ward",
         "Ward No": 2,
         "Candidate Name": "Jagdish Ojha",
@@ -2390,7 +2390,7 @@
       "type": "Feature",
       "properties": {
         "gid": 3,
-        "name": "C",
+        "name": "Marine Lines",
         "Ward": "R/North Ward",
         "Ward No": 3,
         "Candidate Name": "Balkrishna Brid",
@@ -2957,7 +2957,7 @@
       "type": "Feature",
       "properties": {
         "gid": 4,
-        "name": "D",
+        "name": "Grand Road",
         "Ward": "R/North Ward",
         "Ward No": 4,
         "Candidate Name": "Sujata Patekar",
@@ -3813,7 +3813,7 @@
       "type": "Feature",
       "properties": {
         "gid": 5,
-        "name": "E",
+        "name": "Byculla",
         "Ward": "R/North Ward",
         "Ward No": 5,
         "Candidate Name": "Sanjay Ghadi",
@@ -4699,7 +4699,7 @@
       "type": "Feature",
       "properties": {
         "gid": 6,
-        "name": "F/S",
+        "name": "Parel",
         "Ward": "R/North Ward",
         "Ward No": 6,
         "Candidate Name": "Harshal Kakkar",
@@ -5383,7 +5383,7 @@
       "type": "Feature",
       "properties": {
         "gid": 7,
-        "name": "G/S",
+        "name": "Elphistone",
         "Ward": "R/North Ward",
         "Ward No": 7,
         "Candidate Name": "Sheetal Mukesh Mahatre",
@@ -6015,7 +6015,7 @@
       "type": "Feature",
       "properties": {
         "gid": 8,
-        "name": "F/N",
+        "name": "Matunga",
         "Ward": "R/Central Ward",
         "Ward No": 8,
         "Candidate Name": "Harish Chheda",
@@ -7238,7 +7238,7 @@
       "type": "Feature",
       "properties": {
         "gid": 9,
-        "name": "G/N",
+        "name": "Dadar",
         "Ward": "R/Central Ward",
         "Ward No": 9,
         "Candidate Name": "Sweta Sharad Korgaonkar",
@@ -7790,7 +7790,7 @@
       "type": "Feature",
       "properties": {
         "gid": 10,
-        "name": "N",
+        "name": "Ghatkopar",
         "Ward": "R/Central Ward",
         "Ward No": 10,
         "Candidate Name": "Jitendra Ambalal Patel",
@@ -8742,7 +8742,7 @@
       "type": "Feature",
       "properties": {
         "gid": 11,
-        "name": "R/C",
+        "name": "Borivali",
         "Ward": "R/Central Ward",
         "Ward No": 11,
         "Candidate Name": "Riddhi Khurluge",
@@ -9789,7 +9789,7 @@
       "type": "Feature",
       "properties": {
         "gid": 12,
-        "name": "S",
+        "name": "Bhandhup",
         "Ward": "R/Central Ward",
         "Ward No": 12,
         "Candidate Name": "Geeta Singal",
@@ -10839,7 +10839,7 @@
       "type": "Feature",
       "properties": {
         "gid": 13,
-        "name": "T",
+        "name": "Mulund",
         "Ward": "R/Central Ward",
         "Ward No": 13,
         "Candidate Name": "Vidyarthi Singh",
@@ -11972,7 +11972,7 @@
       "type": "Feature",
       "properties": {
         "gid": 14,
-        "name": "K/W",
+        "name": "Andheri West",
         "Ward": "R/Central Ward",
         "Ward No": 14,
         "Candidate Name": "Asawari Patil",
@@ -12860,7 +12860,7 @@
       "type": "Feature",
       "properties": {
         "gid": 15,
-        "name": "R/N",
+        "name": "Dahisar",
         "Ward": "R/Central Ward",
         "Ward No": 15,
         "Candidate Name": "Pravin Shah",
@@ -13521,7 +13521,7 @@
       "type": "Feature",
       "properties": {
         "gid": 16,
-        "name": "M/E",
+        "name": "Chembur East",
         "Ward": "R/Central Ward",
         "Ward No": 16,
         "Candidate Name": "Anjali Khedekar",
@@ -14290,7 +14290,7 @@
       "type": "Feature",
       "properties": {
         "gid": 17,
-        "name": "M/W",
+        "name": "Chembur West",
         "Ward": "R/Central Ward",
         "Ward No": 17,
         "Candidate Name": "Beena Doshi",
@@ -15516,7 +15516,7 @@
       "type": "Feature",
       "properties": {
         "gid": 18,
-        "name": "H/E",
+        "name": "Khar",
         "Ward": "R/South Ward",
         "Ward No": 18,
         "Candidate Name": "Sandhya Doshi",
@@ -16135,7 +16135,7 @@
       "type": "Feature",
       "properties": {
         "gid": 19,
-        "name": "K/E",
+        "name": "Andheri East",
         "Ward": "R/South Ward",
         "Ward No": 19,
         "Candidate Name": "Shubhada Gudekar",
@@ -17188,7 +17188,7 @@
       "type": "Feature",
       "properties": {
         "gid": 20,
-        "name": "P/S",
+        "name": "Goregaon",
         "Ward": "R/South Ward",
         "Ward No": 20,
         "Candidate Name": "Deepak Tawade",
@@ -18203,7 +18203,7 @@
       "type": "Feature",
       "properties": {
         "gid": 21,
-        "name": "P/N",
+        "name": "Malad",
         "Ward": "R/South Ward",
         "Ward No": 21,
         "Candidate Name": "Shailaja Girkar",
@@ -20167,7 +20167,7 @@
       "type": "Feature",
       "properties": {
         "gid": 22,
-        "name": "R/S",
+        "name": "Kandivali",
         "Ward": "R/South Ward",
         "Ward No": 22,
         "Candidate Name": "Priyanka More",
@@ -21417,7 +21417,7 @@
       "type": "Feature",
       "properties": {
         "gid": 23,
-        "name": "H/W",
+        "name": "Bandra",
         "Ward": "R/South Ward",
         "Ward No": 23,
         "Candidate Name": "Shiv Kumar Jha",
@@ -22117,7 +22117,7 @@
       "type": "Feature",
       "properties": {
         "gid": 24,
-        "name": "L",
+        "name": "Kurla",
         "Ward": "R/South Ward",
         "Ward No": 24,
         "Candidate Name": "Sunita Yadav",

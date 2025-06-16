@@ -94,4 +94,10 @@ code {
     padding: 5px 10px;
     font-size: 14px;
   }
+  .custom-ward-popup .leaflet-popup-content{
+    width: 200px !important;
+  }
+  .custom-ward-popup .leaflet-popup-content{
+    margin: 13px 0 13px 10px !important;
+  }
 }
