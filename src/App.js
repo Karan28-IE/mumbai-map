@@ -12,6 +12,8 @@ const geoStyle = {
   fillOpacity: 0.7,
 };
 
+const defaultWardColor = "#e0e0e0";
+
 const partyColors = {
   BJP: "#FF9933",
   Shivsena: "#FFD700",
@@ -48,10 +50,8 @@ const getPartyColor = (party, wardId) => {
   if (gradientParties[party]) {
     return `url(#${gradientParties[party]})`;
   }
-
   const key = `${party}_${wardId}`;
   if (colorCache.has(key)) return colorCache.get(key);
-
   const color = partyColors[party] || "#cccccc";
   colorCache.set(key, color);
   return color;
@@ -61,14 +61,12 @@ const getPartyLogo = (party) => partyLogos[party] || partyLogos["Unknown"];
 
 function SetMapBounds({ geoData }) {
   const map = useMap();
-
   useEffect(() => {
     if (geoData) {
       const bounds = [];
       geoData.features.forEach((feature) => {
         const coords = feature.geometry.coordinates;
         const geomType = feature.geometry.type;
-
         if (geomType === "Polygon") {
           bounds.push(...coords[0].map(([lng, lat]) => [lat, lng]));
         } else if (geomType === "MultiPolygon") {
@@ -77,13 +75,11 @@ function SetMapBounds({ geoData }) {
           );
         }
       });
-
       if (bounds.length > 0) {
         map.fitBounds(bounds);
       }
     }
   }, [geoData, map]);
-
   return null;
 }
 
@@ -96,24 +92,35 @@ export default function MumbaiWardMap() {
   const [partySeats, setPartySeats] = useState({});
 
   useEffect(() => {
-    setGeoData(null);
-    colorCache.clear();
-    fetch(`/data/bmc_${selectedYear}.geojson`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP error: ${res.status}`);
-        return res.json();
-      })
-      .then((data) => {
-        setGeoData(data);
-        const counts = {};
-        data.features.forEach((feature) => {
-          const party = feature.properties?.Party || "Unknown";
-          counts[party] = (counts[party] || 0) + 1;
-        });
-        setPartySeats(counts);
-      })
-      .catch((err) => console.error("Error loading GeoJSON:", err));
-  }, [selectedYear]);
+  setGeoData(null);
+  colorCache.clear();
+
+  fetch(`http://localhost:5000/api/geojson/${selectedYear}`)
+    .then((res) => res.json())
+    .then(({ geojson, attributes }) => {
+      geojson.features.forEach((feature) => {
+        const wardId = feature.properties?.ward_number || feature.properties?.name;
+        const match = attributes.find(
+          (attr) =>
+            attr.ward_number === wardId ||
+            attr.name === wardId ||
+            attr.ward_number === Number(wardId)
+        );
+        feature.properties = match || {};
+      });
+
+      setGeoData(geojson);
+
+      const counts = {};
+      geojson.features.forEach((feature) => {
+        const party = feature.properties?.Party || "Unknown";
+        counts[party] = (counts[party] || 0) + 1;
+      });
+      setPartySeats(counts);
+    })
+    .catch((err) => console.error("Error loading data:", err));
+}, [selectedYear]);
+
 
   const onEachFeature = (feature, layer) => {
     const props = feature.properties;
@@ -158,7 +165,7 @@ export default function MumbaiWardMap() {
       layer.on("popupclose", (event) => {
         event.target.setStyle({
           ...geoStyle,
-          fillColor: "url(#congressGradient)",
+          fillColor: defaultWardColor,
         });
       });
     }
@@ -175,7 +182,7 @@ export default function MumbaiWardMap() {
       mouseout: (event) => {
         event.target.setStyle({
           ...geoStyle,
-          fillColor: "url(#congressGradient)",
+          fillColor: defaultWardColor,
         });
       },
     });
@@ -190,7 +197,7 @@ export default function MumbaiWardMap() {
         data={geoData}
         style={() => ({
           ...geoStyle,
-          fillColor: "url(#congressGradient)",
+          fillColor: defaultWardColor,
         })}
         onEachFeature={onEachFeature}
       />
@@ -199,7 +206,6 @@ export default function MumbaiWardMap() {
 
   return (
     <div style={{ height: "100vh", width: "100%", position: "relative" }}>
-      {/* SVG Gradients */}
       <svg width="0" height="0">
         <defs>
           <linearGradient id="congressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -232,16 +238,13 @@ export default function MumbaiWardMap() {
         {geoData && <SetMapBounds geoData={geoData} />}
       </MapContainer>
 
-      {/* Year Selector */}
       <div className="year-selector">
         <div className="year-title">Select the year for Mumbai election</div>
         <div className="year-buttons">
           {YEARS.map((year) => (
             <button
               key={year}
-              className={`year-button ${
-                year === selectedYear ? "active" : ""
-              }`}
+              className={`year-button ${year === selectedYear ? "active" : ""}`}
               onClick={() => setSelectedYear(year)}
             >
               {year}
@@ -250,7 +253,6 @@ export default function MumbaiWardMap() {
         </div>
       </div>
 
-      {/* Seats by Party */}
       <div className="sidebar">
         <h3 className="map-party-title">Seats by Party ({selectedYear})</h3>
         <table className="party-table">
