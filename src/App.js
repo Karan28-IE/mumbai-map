@@ -92,34 +92,63 @@ export default function MumbaiWardMap() {
   const [partySeats, setPartySeats] = useState({});
 
   useEffect(() => {
-  setGeoData(null);
-  colorCache.clear();
+  let isMounted = true;
+  let loading = false;
+  let intervalId;
 
-  fetch(`http://localhost:5000/api/geojson/${selectedYear}`)
-    .then((res) => res.json())
-    .then(({ geojson, attributes }) => {
-      geojson.features.forEach((feature) => {
-        const wardId = feature.properties?.ward_number || feature.properties?.name;
-        const match = attributes.find(
-          (attr) =>
-            attr.ward_number === wardId ||
-            attr.name === wardId ||
-            attr.ward_number === Number(wardId)
-        );
-        feature.properties = match || {};
+  const fetchData = () => {
+    if (loading) return; // prevent overlapping
+    loading = true;
+
+    setGeoData(null);
+    colorCache.clear();
+
+    fetch(`http://localhost:5000/api/geojson/${selectedYear}`)
+      .then((res) => res.json())
+      .then(({ geojson, attributes }) => {
+        if (!isMounted) return;
+
+        geojson.features.forEach((feature) => {
+          const wardId =
+            feature.properties?.ward_number || feature.properties?.name;
+          const match = attributes.find(
+            (attr) =>
+              attr.ward_number === wardId ||
+              attr.name === wardId ||
+              attr.ward_number === Number(wardId)
+          );
+          feature.properties = match || {};
+        });
+
+        setGeoData(geojson);
+
+        const counts = {};
+        geojson.features.forEach((feature) => {
+          const party = feature.properties?.Party || "Unknown";
+          counts[party] = (counts[party] || 0) + 1;
+        });
+        setPartySeats(counts);
+      })
+      .catch((err) => console.error("Error loading data:", err))
+      .finally(() => {
+        loading = false;
       });
+  };
 
-      setGeoData(geojson);
+  fetchData(); // load first time
 
-      const counts = {};
-      geojson.features.forEach((feature) => {
-        const party = feature.properties?.Party || "Unknown";
-        counts[party] = (counts[party] || 0) + 1;
-      });
-      setPartySeats(counts);
-    })
-    .catch((err) => console.error("Error loading data:", err));
+  intervalId = setInterval(() => {
+    if (!loading) {
+      fetchData();
+    }
+  }, 15000);
+
+  return () => {
+    isMounted = false;
+    clearInterval(intervalId);
+  };
 }, [selectedYear]);
+
 
 
   const onEachFeature = (feature, layer) => {
@@ -206,7 +235,10 @@ export default function MumbaiWardMap() {
 
   return (
     <div style={{ height: "100vh", width: "100%", position: "relative" }}>
-      <svg width="0" height="0">
+      <svg style={{position: "absolute",width: 0,height: 0,overflow: "hidden",pointerEvents: "none",}}
+      aria-hidden="true"
+      focusable="false"
+      >
         <defs>
           <linearGradient id="congressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="30%" stopColor="#EE5A1C" />

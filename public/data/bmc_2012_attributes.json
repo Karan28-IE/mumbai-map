@@ -1,0 +1,1591 @@
+[
+  {
+    "ward_number": "1",
+    "name": "R/North Ward",
+    "Candidate Name": "Tejaswini Ghosalkar",
+    "Party": "Shiv Sena",
+    "Areas": "Kandarpada – IC Colony"
+  },
+  {
+    "ward_number": "2",
+    "name": "R/North Ward",
+    "Candidate Name": "Jagdish Ojha",
+    "Party": "BJP",
+    "Areas": "Gaondevi – Dahisar (E)"
+  },
+  {
+    "ward_number": "3",
+    "name": "R/North Ward",
+    "Candidate Name": "Balkrishna Brid",
+    "Party": "Shiv Sena",
+    "Areas": "Ketakipada – Shailendra Nagar"
+  },
+  {
+    "ward_number": "4",
+    "name": "R/North Ward",
+    "Candidate Name": "Sujata Patekar",
+    "Party": "Shiv Sena",
+    "Areas": "Vaishali Nagar"
+  },
+  {
+    "ward_number": "5",
+    "name": "R/North Ward",
+    "Candidate Name": "Sanjay Ghadi",
+    "Party": "Shiv Sena",
+    "Areas": "Ashokvan – Chintamani Nagar"
+  },
+  {
+    "ward_number": "6",
+    "name": "R/North Ward",
+    "Candidate Name": "Harshal Kakkar",
+    "Party": "Shiv Sena",
+    "Areas": "Ambavadi – Ovari Pada"
+  },
+  {
+    "ward_number": "7",
+    "name": "R/North Ward",
+    "Candidate Name": "Sheetal Mukesh Mahatre",
+    "Party": "Shiv Sena",
+    "Areas": "Mandapeshwar"
+  },
+  {
+    "ward_number": "8",
+    "name": "R/Central Ward",
+    "Candidate Name": "Harish Chheda",
+    "Party": "BJP",
+    "Areas": "Gorai – MHB Colony (Old)"
+  },
+  {
+    "ward_number": "9",
+    "name": "R/Central Ward",
+    "Candidate Name": "Sweta Sharad Korgaonkar",
+    "Party": "Congress",
+    "Areas": "Govind Nagar"
+  },
+  {
+    "ward_number": "10",
+    "name": "R/Central Ward",
+    "Candidate Name": "Jitendra Ambalal Patel",
+    "Party": "BJP",
+    "Areas": "Daulat Nagar"
+  },
+  {
+    "ward_number": "11",
+    "name": "R/Central Ward",
+    "Candidate Name": "Riddhi Khurluge",
+    "Party": "Shiv Sena",
+    "Areas": "Bansi Nagar – Tata Power House"
+  },
+  {
+    "ward_number": "12",
+    "name": "R/Central Ward",
+    "Candidate Name": "Geeta Singal",
+    "Party": "Shiv Sena",
+    "Areas": "Datta Pada"
+  },
+  {
+    "ward_number": "13",
+    "name": "R/Central Ward",
+    "Candidate Name": "Vidyarthi Singh",
+    "Party": "BJP",
+    "Areas": "Rajendra Nagar"
+  },
+  {
+    "ward_number": "14",
+    "name": "R/Central Ward",
+    "Candidate Name": "Asawari Patil",
+    "Party": "BJP",
+    "Areas": "Borivali TPS lll – Kora kendra"
+  },
+  {
+    "ward_number": "15",
+    "name": "R/Central Ward",
+    "Candidate Name": "Pravin Shah",
+    "Party": "BJP",
+    "Areas": "Eskar – Yogi Nagar"
+  },
+  {
+    "ward_number": "16",
+    "name": "R/Central Ward",
+    "Candidate Name": "Anjali Khedekar",
+    "Party": "BJP",
+    "Areas": "Chikuwadi – Kanti Park – MHB Colony"
+  },
+  {
+    "ward_number": "17",
+    "name": "R/Central Ward",
+    "Candidate Name": "Beena Doshi",
+    "Party": "BJP",
+    "Areas": "Charkop (N)"
+  },
+  {
+    "ward_number": "18",
+    "name": "R/South Ward",
+    "Candidate Name": "Sandhya Doshi",
+    "Party": "Shiv Sena",
+    "Areas": "Charkop (S) – Kandivali"
+  },
+  {
+    "ward_number": "19",
+    "name": "R/South Ward",
+    "Candidate Name": "Shubhada Gudekar",
+    "Party": "Shiv Sena",
+    "Areas": "Charkop Industrial Estate"
+  },
+  {
+    "ward_number": "20",
+    "name": "R/South Ward",
+    "Candidate Name": "Deepak Tawade",
+    "Party": "BJP",
+    "Areas": "Mahavir Nagar – Dhanukar Wadi"
+  },
+  {
+    "ward_number": "21",
+    "name": "R/South Ward",
+    "Candidate Name": "Shailaja Girkar",
+    "Party": "BJP",
+    "Areas": "Narain Sanskrutik Centre – Aarya Chanakya Nagar"
+  },
+  {
+    "ward_number": "22",
+    "name": "R/South Ward",
+    "Candidate Name": "Priyanka More",
+    "Party": "BJP",
+    "Areas": "Poinsur Village (W)"
+  },
+  {
+    "ward_number": "23",
+    "name": "R/South Ward",
+    "Candidate Name": "Shiv Kumar Jha",
+    "Party": "BJP",
+    "Areas": "Poinsur (E) Rajaram Nagar – Ashok Nagar"
+  },
+  {
+    "ward_number": "24",
+    "name": "R/South Ward",
+    "Candidate Name": "Sunita Yadav",
+    "Party": "BJP",
+    "Areas": "Samata Nagar – Dattani Park"
+  },
+  {
+    "ward_number": "25",
+    "name": "R/South Ward",
+    "Candidate Name": "Madhuri Bhoir",
+    "Party": "Shiv Sena",
+    "Areas": "Damupada"
+  },
+  {
+    "ward_number": "26",
+    "name": "R/South Ward",
+    "Candidate Name": "Pritam Pandagle",
+    "Party": "BJP",
+    "Areas": "Samata Nagar – Mahindra & Mahindra Co"
+  },
+  {
+    "ward_number": "27",
+    "name": "R/South Ward",
+    "Candidate Name": "Surekha Patil",
+    "Party": "BJP",
+    "Areas": "Devji Bhimji Colony – Paras Nagar"
+  },
+  {
+    "ward_number": "28",
+    "name": "R/South Ward",
+    "Candidate Name": "Rajpati Yadav",
+    "Party": "Congress",
+    "Areas": "Irani Wadi – Kandivali (W)"
+  },
+  {
+    "ward_number": "29",
+    "name": "P/North Ward",
+    "Candidate Name": "Thakur Sagar Singh",
+    "Party": "BJP",
+    "Areas": "Manori Marve – Erangel – Aksa – Daravali Village – Madh Island"
+  },
+  {
+    "ward_number": "30",
+    "name": "P/North Ward",
+    "Candidate Name": "Leena Patil Deherkar",
+    "Party": "BJP",
+    "Areas": "Valnai Village – Kharodi Village Malavani Colony"
+  },
+  {
+    "ward_number": "31",
+    "name": "P/North Ward",
+    "Candidate Name": "Kamlesh Yadav",
+    "Party": "BJP",
+    "Areas": "Adarsh Dugdhalaya – Evershine Nagar"
+  },
+  {
+    "ward_number": "32",
+    "name": "P/North Ward",
+    "Candidate Name": "Steffi Kini",
+    "Party": "Congress",
+    "Areas": "Bhadaran Nagar – Mamalatadar Wadi"
+  },
+  {
+    "ward_number": "33",
+    "name": "P/North Ward",
+    "Candidate Name": "Virendra Chowdhary",
+    "Party": "Congress",
+    "Areas": "Pushpa Park"
+  },
+  {
+    "ward_number": "34",
+    "name": "P/North Ward",
+    "Candidate Name": "Kamarjaha Siddique",
+    "Party": "Congress",
+    "Areas": "Tanaji Nagar"
+  },
+  {
+    "ward_number": "35",
+    "name": "P/North Ward",
+    "Candidate Name": "Sejal Desai",
+    "Party": "BJP",
+    "Areas": "Appa Pada"
+  },
+  {
+    "ward_number": "36",
+    "name": "P/North Ward",
+    "Candidate Name": "Daksha Patel",
+    "Party": "BJP",
+    "Areas": "Malad Hill Reservoir"
+  },
+  {
+    "ward_number": "37",
+    "name": "P/North Ward",
+    "Candidate Name": "Pratibha Shinde",
+    "Party": "BJP",
+    "Areas": "Municipal Colony Malad (E)"
+  },
+  {
+    "ward_number": "38",
+    "name": "P/North Ward",
+    "Candidate Name": "Aatmaram Chache",
+    "Party": "Shiv Sena",
+    "Areas": "Dhanji Wadi – Narsobawadi – Koknipada"
+  },
+  {
+    "ward_number": "39",
+    "name": "P/North Ward",
+    "Candidate Name": "Vinaya Vishnu Sawant",
+    "Party": "Shiv Sena",
+    "Areas": "Pimpri Pada – Pathanwadi"
+  },
+  {
+    "ward_number": "40",
+    "name": "P/North Ward",
+    "Candidate Name": "Suhas Wadkar",
+    "Party": "Shiv Sena",
+    "Areas": "Raheja Complex – Dindoshi"
+  },
+  {
+    "ward_number": "41",
+    "name": "P/North Ward",
+    "Candidate Name": "Archana Desai",
+    "Party": "BJP",
+    "Areas": "Markani Pada"
+  },
+  {
+    "ward_number": "42",
+    "name": "P/North Ward",
+    "Candidate Name": "Dhanashree Bharadkar",
+    "Party": "NCP",
+    "Areas": "Liberty Garden – Nadiyadwala Colony"
+  },
+  {
+    "ward_number": "43",
+    "name": "P/North Ward",
+    "Candidate Name": "Vinod Mishra",
+    "Party": "BJP",
+    "Areas": "New Collector’s Colony"
+  },
+  {
+    "ward_number": "44",
+    "name": "P/North Ward",
+    "Candidate Name": "Sangita Dnyanmurti Mishra",
+    "Party": "BJP",
+    "Areas": "New Collector’s Colony – MHB Colony"
+  },
+  {
+    "ward_number": "45",
+    "name": "P/South Ward",
+    "Candidate Name": "Ram Barod",
+    "Party": "BJP",
+    "Areas": "Bangur Nagar – Sunder Nagar"
+  },
+  {
+    "ward_number": "46",
+    "name": "P/South Ward",
+    "Candidate Name": "Yogita Sunil Koli",
+    "Party": "BJP",
+    "Areas": "Dindoshi – Pandurang wadi"
+  },
+  {
+    "ward_number": "47",
+    "name": "P/South Ward",
+    "Candidate Name": "Jaya Tiwana",
+    "Party": "BJP",
+    "Areas": "Aarey Colony (E)"
+  },
+  {
+    "ward_number": "48",
+    "name": "P/South Ward",
+    "Candidate Name": "Salma Almelkar",
+    "Party": "Congress",
+    "Areas": "Nirlon – Krushi Vidyapeeth – Jaiprakash Nagar"
+  },
+  {
+    "ward_number": "49",
+    "name": "P/South Ward",
+    "Candidate Name": "Sangita Sutar",
+    "Party": "Shiv Sena",
+    "Areas": "Unnat Nagar – Motilal Nagar No. 2 & 3"
+  },
+  {
+    "ward_number": "50",
+    "name": "P/South Ward",
+    "Candidate Name": "Deepak Thakur",
+    "Party": "BJP",
+    "Areas": "Patkar College – Shastri Nagar"
+  },
+  {
+    "ward_number": "51",
+    "name": "P/South Ward",
+    "Candidate Name": "Swapnil Mohan Tembwalkar",
+    "Party": "Shiv Sena",
+    "Areas": "Motilal Nagar No. 1 – BEST Bus Depot"
+  },
+  {
+    "ward_number": "52",
+    "name": "P/South Ward",
+    "Candidate Name": "Priti Satam",
+    "Party": "BJP",
+    "Areas": "Siddharth Nagar – Jawahar Nagar"
+  },
+  {
+    "ward_number": "53",
+    "name": "K/West Ward",
+    "Candidate Name": "Rekha Ramvanshi",
+    "Party": "Shiv Sena",
+    "Areas": "Oshivara – Kandivli (E)"
+  },
+  {
+    "ward_number": "54",
+    "name": "K/West Ward",
+    "Candidate Name": "Sadhna Mande",
+    "Party": "Shiv Sena",
+    "Areas": "Tarapore Garden"
+  },
+  {
+    "ward_number": "55",
+    "name": "K/West Ward",
+    "Candidate Name": "Harsh Patel",
+    "Party": "BJP",
+    "Areas": "Swami Samarth Nagar"
+  },
+  {
+    "ward_number": "56",
+    "name": "K/West Ward",
+    "Candidate Name": "Rajul Sameer Desai",
+    "Party": "BJP",
+    "Areas": "Versova (N)"
+  },
+  {
+    "ward_number": "57",
+    "name": "K/West Ward",
+    "Candidate Name": "Shrikalla Pillai",
+    "Party": "BJP",
+    "Areas": "Aadarsh Nagar – Amboli Hill"
+  },
+  {
+    "ward_number": "58",
+    "name": "K/West Ward",
+    "Candidate Name": "Sandip Patel",
+    "Party": "BJP",
+    "Areas": "Sahaji Raje Sports Complex – Malcom Baug"
+  },
+  {
+    "ward_number": "59",
+    "name": "K/West Ward",
+    "Candidate Name": "Pratibha Khopde",
+    "Party": "Shiv Sena",
+    "Areas": "Seven Bunglows – Versova (S)"
+  },
+  {
+    "ward_number": "60",
+    "name": "K/West Ward",
+    "Candidate Name": "Yogiraj Dabhadkar",
+    "Party": "BJP",
+    "Areas": "Manish Nagar – Bhavan’s College"
+  },
+  {
+    "ward_number": "61",
+    "name": "K/West Ward",
+    "Candidate Name": "Rajul Patel",
+    "Party": "Shiv Sena",
+    "Areas": "Gilbert Hill – Andheri Market"
+  },
+  {
+    "ward_number": "62",
+    "name": "K/West Ward",
+    "Candidate Name": "Changez Multani",
+    "Party": "Independent",
+    "Areas": "Lalubhai Park – Shri Ram Jharokha"
+  },
+  {
+    "ward_number": "63",
+    "name": "K/West Ward",
+    "Candidate Name": "Ranjana Patil",
+    "Party": "BJP",
+    "Areas": "Bhakti Vedanta Mandir – Cooper Hospital"
+  },
+  {
+    "ward_number": "64",
+    "name": "K/West Ward",
+    "Candidate Name": "Shahida Haroon Khan",
+    "Party": "Shiv Sena",
+    "Areas": "SNDT University Campus – Juhu Airport"
+  },
+  {
+    "ward_number": "65",
+    "name": "K/West Ward",
+    "Candidate Name": "Alpha Ashok Jadhav",
+    "Party": "Congress",
+    "Areas": "Vile Parle (W) – Mithibai College"
+  },
+  {
+    "ward_number": "66",
+    "name": "K/East Ward",
+    "Candidate Name": "Meher Mohsin Haider",
+    "Party": "Congress",
+    "Areas": "Bandrekar Wadi – Ismail Yusuf College"
+  },
+  {
+    "ward_number": "67",
+    "name": "K/East Ward",
+    "Candidate Name": "Sudha Singh",
+    "Party": "BJP",
+    "Areas": "Jogeshwari Caves – Majaswadi"
+  },
+  {
+    "ward_number": "68",
+    "name": "K/East Ward",
+    "Candidate Name": "Rohan Rathod",
+    "Party": "BJP",
+    "Areas": "Shivneri Vasahat – Meghwadi"
+  },
+  {
+    "ward_number": "69",
+    "name": "K/East Ward",
+    "Candidate Name": "Renu Hansraj",
+    "Party": "BJP",
+    "Areas": "Shankarwadi – Parsi Panchayat"
+  },
+  {
+    "ward_number": "70",
+    "name": "K/East Ward",
+    "Candidate Name": "Sunita Mehta",
+    "Party": "BJP",
+    "Areas": "Squatter’s Colony Tolani College"
+  },
+  {
+    "ward_number": "71",
+    "name": "K/East Ward",
+    "Candidate Name": "Anish Makhwani",
+    "Party": "BJP",
+    "Areas": "Gundavli Gaonthan (W)"
+  },
+  {
+    "ward_number": "72",
+    "name": "K/East Ward",
+    "Candidate Name": "Pankaj Yadav",
+    "Party": "BJP",
+    "Areas": "Gundavli (E) – ESIS Hospital"
+  },
+  {
+    "ward_number": "73",
+    "name": "K/East Ward",
+    "Candidate Name": "Pravin Shinde",
+    "Party": "Shiv Sena",
+    "Areas": "Vyaravli – MIDC"
+  },
+  {
+    "ward_number": "74",
+    "name": "K/East Ward",
+    "Candidate Name": "Ujjawala Modak",
+    "Party": "BJP",
+    "Areas": "Vijaynagar – Bhavani Nagar"
+  },
+  {
+    "ward_number": "75",
+    "name": "K/East Ward",
+    "Candidate Name": "Priyanka Sawant",
+    "Party": "Shiv Sena",
+    "Areas": "Sahar Airport – Maroshi Village"
+  },
+  {
+    "ward_number": "76",
+    "name": "K/East Ward",
+    "Candidate Name": "Kesarben Murji Patel",
+    "Party": "BJP",
+    "Areas": "Chakala – Sahar Airport"
+  },
+  {
+    "ward_number": "77",
+    "name": "K/East Ward",
+    "Candidate Name": "Anant Nar",
+    "Party": "Shiv Sena",
+    "Areas": "Sahar Village – Baman Wada"
+  },
+  {
+    "ward_number": "78",
+    "name": "K/East Ward",
+    "Candidate Name": "Sofi Jabbar",
+    "Party": "NCP",
+    "Areas": "MV College – Vijay Nagar – Coal Dongari"
+  },
+  {
+    "ward_number": "79",
+    "name": "K/East Ward",
+    "Candidate Name": "Sadanand Parab",
+    "Party": "Shiv Sena",
+    "Areas": "Tejpal Scheme – Vile Parle (E)"
+  },
+  {
+    "ward_number": "80",
+    "name": "K/East Ward",
+    "Candidate Name": "Sunil Yadav",
+    "Party": "BJP",
+    "Areas": "Vile Parle (E) Telephone Exchange"
+  },
+  {
+    "ward_number": "81",
+    "name": "H/East Ward",
+    "Candidate Name": "Murji Patel",
+    "Party": "BJP",
+    "Areas": "Prabhat Colony – Anand Nagar"
+  },
+  {
+    "ward_number": "82",
+    "name": "H/East Ward",
+    "Candidate Name": "Amin Jagdhish Kutti (Anna)",
+    "Party": "Congress",
+    "Areas": "Vivekanand Nagar"
+  },
+  {
+    "ward_number": "83",
+    "name": "H/East Ward",
+    "Candidate Name": "Vinnie D’souza",
+    "Party": "Congress",
+    "Areas": "University Campus – Pharmacy Colony"
+  },
+  {
+    "ward_number": "84",
+    "name": "H/East Ward",
+    "Candidate Name": "Abhijeet Samant",
+    "Party": "BJP",
+    "Areas": "Kalina Village – Santacruz Cantonment"
+  },
+  {
+    "ward_number": "85",
+    "name": "H/East Ward",
+    "Candidate Name": "Sushma Kamlesh Rai",
+    "Party": "Congress",
+    "Areas": "Bharat Nagar (E)"
+  },
+  {
+    "ward_number": "86",
+    "name": "H/East Ward",
+    "Candidate Name": "Vishwanath Mahadeshwar",
+    "Party": "Shiv Sena",
+    "Areas": "TPS III – Santacruz Ashok Nagar"
+  },
+  {
+    "ward_number": "87",
+    "name": "H/East Ward",
+    "Candidate Name": "Vishwanath Pandurang Mahadeshwar",
+    "Party": "Shiv Sena",
+    "Areas": "Dowri Colony – Khar Rifle Range"
+  },
+  {
+    "ward_number": "88",
+    "name": "H/East Ward",
+    "Candidate Name": "Sada Parab",
+    "Party": "Shiv Sena",
+    "Areas": "Teacher’s Colony – Jawahar Nagar"
+  },
+  {
+    "ward_number": "89",
+    "name": "H/East Ward",
+    "Candidate Name": "Dinesh Kubal",
+    "Party": "Shiv Sena",
+    "Areas": "Govt Colony – Bharat Nagar (W)"
+  },
+  {
+    "ward_number": "90",
+    "name": "H/East Ward",
+    "Candidate Name": "Tulip Miranda",
+    "Party": "Congress",
+    "Areas": "Bandra Terminus – Nirmal Nagar"
+  },
+  {
+    "ward_number": "91",
+    "name": "H/East Ward",
+    "Candidate Name": "Sagun Naik",
+    "Party": "Shiv Sena",
+    "Areas": "Kherwadi"
+  },
+  {
+    "ward_number": "92",
+    "name": "H/West Ward",
+    "Candidate Name": "Bulnaaz Kureshi",
+    "Party": "MIM",
+    "Areas": "Khira Nagar – Saraswat Colony"
+  },
+  {
+    "ward_number": "93",
+    "name": "H/West Ward",
+    "Candidate Name": "Rohini Kamble",
+    "Party": "Shiv Sena",
+    "Areas": "Vithaldas Nagar – Madhu Park (Khar West)"
+  },
+  {
+    "ward_number": "94",
+    "name": "H/West Ward",
+    "Candidate Name": "Pradnya Bhutkar",
+    "Party": "Shiv Sena",
+    "Areas": "Khar Danda – Chuim Village"
+  },
+  {
+    "ward_number": "95",
+    "name": "H/West Ward",
+    "Candidate Name": "Shekhar Vaingankar",
+    "Party": "Shiv Sena",
+    "Areas": "Union Park – National College"
+  },
+  {
+    "ward_number": "96",
+    "name": "H/West Ward",
+    "Candidate Name": "Mohammed Halim Shamim Sheikh",
+    "Party": "Shiv Sena",
+    "Areas": "Bandra Fort – Pali Market – National Library"
+  },
+  {
+    "ward_number": "97",
+    "name": "H/West Ward",
+    "Candidate Name": "Hetal Vimal Gala",
+    "Party": "BJP",
+    "Areas": "Lilavati Hospital – Bandra Bus Terminus"
+  },
+  {
+    "ward_number": "98",
+    "name": "T Ward",
+    "Candidate Name": "Alka Subhash Kerkar",
+    "Party": "BJP",
+    "Areas": "Mulund Colony – Tulsi Lake"
+  },
+  {
+    "ward_number": "99",
+    "name": "T Ward",
+    "Candidate Name": "Sanjay Gulabrao Agaldare",
+    "Party": "Shivsena",
+    "Areas": "Mulund Check Naka – ESIS Hospital"
+  },
+  {
+    "ward_number": "100",
+    "name": "T Ward",
+    "Candidate Name": "Swapna Mhatre",
+    "Party": "BJP",
+    "Areas": "Topiwala College – Gavan Pada – MHADA Building"
+  },
+  {
+    "ward_number": "101",
+    "name": "T Ward",
+    "Candidate Name": "Asif Ahmed Zakaria",
+    "Party": "Congress",
+    "Areas": "Nane Pada – Palm Acres"
+  },
+  {
+    "ward_number": "102",
+    "name": "T Ward",
+    "Candidate Name": "Mumtaz Rahebar Khan",
+    "Party": "Independent",
+    "Areas": "Mulund Central"
+  },
+  {
+    "ward_number": "103",
+    "name": "T Ward",
+    "Candidate Name": "MM Khan",
+    "Party": "Shivsena",
+    "Areas": "Johnson & Johnson – Sarvoday Nagar – Nahur Village"
+  },
+  {
+    "ward_number": "104",
+    "name": "S Ward",
+    "Candidate Name": "Manoj Kishorbhai Kotak",
+    "Party": "BJP",
+    "Areas": "Milind Nagar – Gaondevi Hills"
+  },
+  {
+    "ward_number": "105",
+    "name": "S Ward",
+    "Candidate Name": "Prakash Kashinath Gangadhare",
+    "Party": "BJP",
+    "Areas": "Bhandup Village"
+  },
+  {
+    "ward_number": "106",
+    "name": "S Ward",
+    "Candidate Name": "Rajani Naresh Keni",
+    "Party": "BJP",
+    "Areas": "Gaon Devi (Bhandup)"
+  },
+  {
+    "ward_number": "107",
+    "name": "S Ward",
+    "Candidate Name": "Prabhakar Tukaram Shinde",
+    "Party": "BJP",
+    "Areas": "Nardas Nagar"
+  },
+  {
+    "ward_number": "108",
+    "name": "S Ward",
+    "Candidate Name": "Samita Vinod Kamble",
+    "Party": "BJP",
+    "Areas": "Kokan Nagar Bhattipada"
+  },
+  {
+    "ward_number": "109",
+    "name": "S Ward",
+    "Candidate Name": "Deepali Gosavi",
+    "Party": "Shiv Sena",
+    "Areas": "Hanuman Nagar – Farid Nagar"
+  },
+  {
+    "ward_number": "110",
+    "name": "S Ward",
+    "Candidate Name": "Asha Koparkar",
+    "Party": "Congress",
+    "Areas": "Datar colony – CGS Quarters"
+  },
+  {
+    "ward_number": "111",
+    "name": "S Ward",
+    "Candidate Name": "Sakshi Deepak Dalvi",
+    "Party": "BJP",
+    "Areas": "Kanjur Village"
+  },
+  {
+    "ward_number": "112",
+    "name": "S Ward",
+    "Candidate Name": "Sakshi Deepak Dalvi",
+    "Party": "BJP",
+    "Areas": "Kannamwar Nagar"
+  },
+  {
+    "ward_number": "113",
+    "name": "S Ward",
+    "Candidate Name": "Deepmala Badhe",
+    "Party": "Shiv Sena",
+    "Areas": "Tagore Nagar"
+  },
+  {
+    "ward_number": "114",
+    "name": "S Ward",
+    "Candidate Name": "Ramesh Korhaonkar",
+    "Party": "Shiv Sena",
+    "Areas": "Hariyali Village – Godrej Colony"
+  },
+  {
+    "ward_number": "115",
+    "name": "S Ward",
+    "Candidate Name": "Umesh Mane",
+    "Party": "Shiv Sena",
+    "Areas": "Aden Bungalows – Tirandaz village"
+  },
+  {
+    "ward_number": "116",
+    "name": "S Ward",
+    "Candidate Name": "Pramila Patil",
+    "Party": "Congress",
+    "Areas": "Vihar Lake – Powai Lake – Paspoli village"
+  },
+  {
+    "ward_number": "117",
+    "name": "N Ward",
+    "Candidate Name": "Suvarna Karanje",
+    "Party": "Shiv Sena",
+    "Areas": "Rahul Nagar"
+  },
+  {
+    "ward_number": "118",
+    "name": "N Ward",
+    "Candidate Name": "Upendra Sawant",
+    "Party": "Shiv Sena",
+    "Areas": "Park Site Colony – Vikroli Village"
+  },
+  {
+    "ward_number": "119",
+    "name": "N Ward",
+    "Candidate Name": "Manisha Harishchandra Rahate",
+    "Party": "NCP",
+    "Areas": "Damodar Park – Sanghani"
+  },
+  {
+    "ward_number": "120",
+    "name": "N Ward",
+    "Candidate Name": "Rajeshree Redkar",
+    "Party": "Shiv Sena",
+    "Areas": "Sarvodaya Hospital – Govt. Colony – Jagdusha Nagar"
+  },
+  {
+    "ward_number": "121",
+    "name": "N Ward",
+    "Candidate Name": "Chandravati More",
+    "Party": "Shiv Sena",
+    "Areas": "Bhim Nagar – Ram Nagar"
+  },
+  {
+    "ward_number": "122",
+    "name": "N Ward",
+    "Candidate Name": "Vaishali Patil",
+    "Party": "BJP",
+    "Areas": "Bhat wadi – Bharve Nagar"
+  },
+  {
+    "ward_number": "123",
+    "name": "N Ward",
+    "Candidate Name": "Archana Bhalerao",
+    "Party": "MNS",
+    "Areas": "Chirag Nagar – Narayan Nagar"
+  },
+  {
+    "ward_number": "124",
+    "name": "N Ward",
+    "Candidate Name": "Jyoti Khan",
+    "Party": "NCP",
+    "Areas": "Kirol Village – Ramji Ashar School"
+  },
+  {
+    "ward_number": "125",
+    "name": "N Ward",
+    "Candidate Name": "Rupali Sudesh",
+    "Party": "Shiv Sena",
+    "Areas": "Pant Nagar"
+  },
+  {
+    "ward_number": "126",
+    "name": "N Ward",
+    "Candidate Name": "Archana Bhalerao",
+    "Party": "MNS",
+    "Areas": "Ramabai Nagar"
+  },
+  {
+    "ward_number": "127",
+    "name": "N Ward",
+    "Candidate Name": "Suresh Patil",
+    "Party": "Shiv Sena",
+    "Areas": "Garodia Nagar – Somaiya College"
+  },
+  {
+    "ward_number": "128",
+    "name": "N Ward",
+    "Candidate Name": "Ashwini Deepak Hande",
+    "Party": "Shiv Sena",
+    "Areas": "Kamraj Nagar"
+  },
+  {
+    "ward_number": "129",
+    "name": "M/East Ward",
+    "Candidate Name": "Suryakant Gavli",
+    "Party": "BJP",
+    "Areas": "Lotus Colony – Rafiq Nagar"
+  },
+  {
+    "ward_number": "130",
+    "name": "M/East Ward",
+    "Candidate Name": "Bindu Chetan Trivedi",
+    "Party": "BJP",
+    "Areas": "Shivaji Nagar No.1"
+  },
+  {
+    "ward_number": "131",
+    "name": "M/East Ward",
+    "Candidate Name": "Rakhee Harishchandra Jadhav",
+    "Party": "NCP",
+    "Areas": "Baiganwadi"
+  },
+  {
+    "ward_number": "132",
+    "name": "M/East Ward",
+    "Candidate Name": "Parag Shah",
+    "Party": "BJP",
+    "Areas": "Shivaji Nagar No. 2 (W)"
+  },
+  {
+    "ward_number": "133",
+    "name": "M/East Ward",
+    "Candidate Name": "Parmeshwar Tukaram Kadam",
+    "Party": "MNS",
+    "Areas": "Shivaji Nagar No. 2 (E) PMG Colony"
+  },
+  {
+    "ward_number": "134",
+    "name": "M/East Ward",
+    "Candidate Name": "Saira Khan",
+    "Party": "SP",
+    "Areas": "Mankhurd Village – Mandala Village"
+  },
+  {
+    "ward_number": "135",
+    "name": "M/East Ward",
+    "Candidate Name": "Riya Barge",
+    "Party": "BJP",
+    "Areas": "Cheetah Camp"
+  },
+  {
+    "ward_number": "136",
+    "name": "M/East Ward",
+    "Candidate Name": "Rukshsana Siddique",
+    "Party": "SP",
+    "Areas": "Anushakti Nagar (BARC) – Trombay"
+  },
+  {
+    "ward_number": "137",
+    "name": "M/East Ward",
+    "Candidate Name": "Ayesha Rafique Shaikh",
+    "Party": "SP",
+    "Areas": "New Gautam Nagar"
+  },
+  {
+    "ward_number": "138",
+    "name": "M/East Ward",
+    "Candidate Name": "Ayeshabano Ainmohammed Khan",
+    "Party": "SP",
+    "Areas": "Deonar – Slaughter House"
+  },
+  {
+    "ward_number": "139",
+    "name": "M/East Ward",
+    "Candidate Name": "Suresh Patil",
+    "Party": "Shiv Sena",
+    "Areas": "Deonar Village – Mankhurd Childrens’ Home"
+  },
+  {
+    "ward_number": "140",
+    "name": "M/East Ward",
+    "Candidate Name": "Nadiya Mohsin Sheikh",
+    "Party": "NCP",
+    "Areas": "RCF Township"
+  },
+  {
+    "ward_number": "141",
+    "name": "M/East Ward",
+    "Candidate Name": "Vitthal Lokre",
+    "Party": "Congress",
+    "Areas": "Adarsh Nagar – Hindustan Petroleum – Anik Village"
+  },
+  {
+    "ward_number": "142",
+    "name": "M/West Ward",
+    "Candidate Name": "Vaishali Shewale",
+    "Party": "Shiv Sena",
+    "Areas": "Anik/ Mahul Villages – RCF Company"
+  },
+  {
+    "ward_number": "143",
+    "name": "M/West Ward",
+    "Candidate Name": "Rutuja Tiwari",
+    "Party": "Shiv Sena",
+    "Areas": "Suman Nagar – Sindhi Society"
+  },
+  {
+    "ward_number": "144",
+    "name": "M/West Ward",
+    "Candidate Name": "Anita Panchal",
+    "Party": "BJP",
+    "Areas": "Siddharth Colony – Basant Park Golf Club"
+  },
+  {
+    "ward_number": "145",
+    "name": "M/West Ward",
+    "Candidate Name": "Shahnawaz Sheikh",
+    "Party": "AIMIM",
+    "Areas": "Sahakar Nagar"
+  },
+  {
+    "ward_number": "146",
+    "name": "M/West Ward",
+    "Candidate Name": "Smruddhi Kate",
+    "Party": "Shiv Sena",
+    "Areas": "Subhash Nagar – Beggar’s Home"
+  },
+  {
+    "ward_number": "147",
+    "name": "M/West Ward",
+    "Candidate Name": "Ayesha Rafique Sheikh",
+    "Party": "SP",
+    "Areas": "Borla (Central) – Ghatla Village"
+  },
+  {
+    "ward_number": "148",
+    "name": "M/West Ward",
+    "Candidate Name": "Nidhi Shinde",
+    "Party": "Shiv Sena",
+    "Areas": "Jyoti Nagar – Rahul Nagar"
+  },
+  {
+    "ward_number": "149",
+    "name": "M/West Ward",
+    "Candidate Name": "Jagdish Makkunny Thaivalapill",
+    "Party": "BJP",
+    "Areas": "Tilak Nagar – Chedda Nagar"
+  },
+  {
+    "ward_number": "150",
+    "name": "L Ward",
+    "Candidate Name": "Sangita Handore",
+    "Party": "Congress",
+    "Areas": "Tungve Village – Chandivali village (W)"
+  },
+  {
+    "ward_number": "151",
+    "name": "L Ward",
+    "Candidate Name": "Rajesh Phulvariya",
+    "Party": "BJP",
+    "Areas": "Chandivali Viiage (E)"
+  },
+  {
+    "ward_number": "152",
+    "name": "L Ward",
+    "Candidate Name": "Asha Subhash Marathe",
+    "Party": "BJP",
+    "Areas": "Mohili Village"
+  },
+  {
+    "ward_number": "153",
+    "name": "L Ward",
+    "Candidate Name": "Anil Patankar",
+    "Party": "Shiv Sena",
+    "Areas": "Kajupada Hill – Asalpa Village"
+  },
+  {
+    "ward_number": "154",
+    "name": "L Ward",
+    "Candidate Name": "Mahadev Shankar Shivgan",
+    "Party": "BJP",
+    "Areas": "Kamini Industries – Saki Naka"
+  },
+  {
+    "ward_number": "155",
+    "name": "L Ward",
+    "Candidate Name": "Shrikant Shettye",
+    "Party": "Shiv Sena",
+    "Areas": "Jari Mari"
+  },
+  {
+    "ward_number": "156",
+    "name": "L Ward",
+    "Candidate Name": "Ashwini Matekar",
+    "Party": "MNS",
+    "Areas": "Premier Automobiles Company – Home Guards Training Centre"
+  },
+  {
+    "ward_number": "157",
+    "name": "L Ward",
+    "Candidate Name": "Akanksha Shetty",
+    "Party": "Shiv Sena",
+    "Areas": "Wadia Estate – Hall Village – Premier Automobile colony"
+  },
+  {
+    "ward_number": "158",
+    "name": "L Ward",
+    "Candidate Name": "Chitra Sangle",
+    "Party": "Shiv Sena",
+    "Areas": "Kurla Village – Dayanand Vidyalaya"
+  },
+  {
+    "ward_number": "159",
+    "name": "L Ward",
+    "Candidate Name": "Prakash Devji More",
+    "Party": "BJP",
+    "Areas": "Vinoba Bhave Nagar"
+  },
+  {
+    "ward_number": "160",
+    "name": "L Ward",
+    "Candidate Name": "Kiran Landge",
+    "Party": "Independent",
+    "Areas": "Kurla Terminus – Kamgar Nagar"
+  },
+  {
+    "ward_number": "161",
+    "name": "L Ward",
+    "Candidate Name": "Vijyandra Shinde",
+    "Party": "Shiv Sena",
+    "Areas": "Shikshak Nagar"
+  },
+  {
+    "ward_number": "162",
+    "name": "L Ward",
+    "Candidate Name": "Wajid Kureshi",
+    "Party": "Congress",
+    "Areas": "Nehru Nagar Bhabha Hospital – Takia"
+  },
+  {
+    "ward_number": "163",
+    "name": "L Ward",
+    "Candidate Name": "Dilip Bhausaheb Lande",
+    "Party": "MNS",
+    "Areas": "Kasai Wada – Everard Nagar"
+  },
+  {
+    "ward_number": "164",
+    "name": "L Ward",
+    "Candidate Name": "Dilip lande",
+    "Party": "MNS",
+    "Areas": "Swadeshi Mill- Eye Hospital"
+  },
+  {
+    "ward_number": "165",
+    "name": "F/North Ward",
+    "Candidate Name": "Ashraf Azmi",
+    "Party": "Congress",
+    "Areas": "Pratiksha Nagar – Sion"
+  },
+  {
+    "ward_number": "166",
+    "name": "F/North Ward",
+    "Candidate Name": "Sanjay Turde",
+    "Party": "MNS",
+    "Areas": "Salt Pan – Sion Transit Camp"
+  },
+  {
+    "ward_number": "167",
+    "name": "F/North Ward",
+    "Candidate Name": "Dilshadbanu Mohammedashraf Azmi",
+    "Party": "Congress",
+    "Areas": "Lokmanya Tilak Hospital – Shanmukhanand"
+  },
+  {
+    "ward_number": "168",
+    "name": "F/North Ward",
+    "Candidate Name": "Saida Khan",
+    "Party": "NCP",
+    "Areas": "Rawli Hill"
+  },
+  {
+    "ward_number": "169",
+    "name": "F/North Ward",
+    "Candidate Name": "Pravin Manish Morajkar",
+    "Party": "Shiv Sena",
+    "Areas": "CGS Colony Sector VII"
+  },
+  {
+    "ward_number": "170",
+    "name": "F/North Ward",
+    "Candidate Name": "Kaptan Malik",
+    "Party": "NCP",
+    "Areas": "CGS Colony – Antop Hill"
+  },
+  {
+    "ward_number": "171",
+    "name": "F/North Ward",
+    "Candidate Name": "Sanvee Vijay Tandel",
+    "Party": "Shiv Sena",
+    "Areas": "Sangam Nagar"
+  },
+  {
+    "ward_number": "172",
+    "name": "F/North Ward",
+    "Candidate Name": "Rajshree Shirvadkar",
+    "Party": "BJP",
+    "Areas": "Korba Mithagar – Wadala Salt pans"
+  },
+  {
+    "ward_number": "173",
+    "name": "F/North Ward",
+    "Candidate Name": "Pralhad Thombre",
+    "Party": "Shiv Sena",
+    "Areas": "Lepers’ Home – BPT Hospital Colony"
+  },
+  {
+    "ward_number": "174",
+    "name": "F/North Ward",
+    "Candidate Name": "Krishnaveni VVinod Reddy",
+    "Party": "BJP",
+    "Areas": "Hindu Colony – Parsi Colony"
+  },
+  {
+    "ward_number": "175",
+    "name": "G/North Ward",
+    "Candidate Name": "Lalita Kachru Yadav",
+    "Party": "INC",
+    "Areas": "Mahim – Kala Killa"
+  },
+  {
+    "ward_number": "176",
+    "name": "G/North Ward",
+    "Candidate Name": "Ravi Raja",
+    "Party": "INC",
+    "Areas": "Dharavi – Transit Camp"
+  },
+  {
+    "ward_number": "177",
+    "name": "G/North Ward",
+    "Candidate Name": "Nehal Shah",
+    "Party": "BJP",
+    "Areas": "Kakaiya devi Temple (Dharavi) – Khambadevi Nagar – Mukund Nagar"
+  },
+  {
+    "ward_number": "178",
+    "name": "G/North Ward",
+    "Candidate Name": "Jesal Kothari",
+    "Party": "BJP",
+    "Areas": "Western India tanneries"
+  },
+  {
+    "ward_number": "179",
+    "name": "G/North Ward",
+    "Candidate Name": "Sufiyana Vanu Niyaz Ahmed",
+    "Party": "INC",
+    "Areas": "Mahim Sonapur – Labour camp"
+  },
+  {
+    "ward_number": "180",
+    "name": "G/North Ward",
+    "Candidate Name": "Smita Gavkar",
+    "Party": "Shiv Sena",
+    "Areas": "Estrella Batteries Co. – Rajarshi Shahu Nagar"
+  },
+  {
+    "ward_number": "181",
+    "name": "G/North Ward",
+    "Candidate Name": "Madhuri Doke",
+    "Party": "Shiv Sena",
+    "Areas": "Mahim Fort – Mahim Police Quarters (Mahim Creek)"
+  },
+  {
+    "ward_number": "182",
+    "name": "G/North Ward",
+    "Candidate Name": "Milind Vaidya",
+    "Party": "Shiv Sena",
+    "Areas": "Shitladevi Temple – Hinduja Hospital"
+  },
+  {
+    "ward_number": "183",
+    "name": "G/North Ward",
+    "Candidate Name": "Ganga Kunal Mane",
+    "Party": "Congress",
+    "Areas": "Ruparel College – Matunga Workshop"
+  },
+  {
+    "ward_number": "184",
+    "name": "G/North Ward",
+    "Candidate Name": "Babbu Khan",
+    "Party": "Congress",
+    "Areas": "Kamgar Krida Kendra – Dadar Railway Station"
+  },
+  {
+    "ward_number": "185",
+    "name": "G/North Ward",
+    "Candidate Name": "Jagdish Makkunny Thaivalapill",
+    "Party": "Shiv Sena",
+    "Areas": "Ravindra Natyamandir – Shivaji Park"
+  },
+  {
+    "ward_number": "186",
+    "name": "G/South Ward",
+    "Candidate Name": "Vasant Nakashe",
+    "Party": "Shiv Sena",
+    "Areas": "ST Depot – Western Railway Workshop"
+  },
+  {
+    "ward_number": "187",
+    "name": "G/South Ward",
+    "Candidate Name": "Thevar Mariammal Mathuramlingan",
+    "Party": "Shiv Sena",
+    "Areas": "TV Centre – Prabhadevi"
+  },
+  {
+    "ward_number": "188",
+    "name": "G/South Ward",
+    "Candidate Name": "Reshambano Mohammadhasim Khan",
+    "Party": "Congress",
+    "Areas": "Worli Village"
+  },
+  {
+    "ward_number": "189",
+    "name": "G/South Ward",
+    "Candidate Name": "Harshala Ashish More",
+    "Party": "MNS",
+    "Areas": "Worli dairy – Sasmira"
+  },
+  {
+    "ward_number": "190",
+    "name": "G/South Ward",
+    "Candidate Name": "Sheetal Gambhir",
+    "Party": "BJP",
+    "Areas": "Worli BDD Chawls"
+  },
+  {
+    "ward_number": "191",
+    "name": "G/South Ward",
+    "Candidate Name": "Vishakha Raut",
+    "Party": "Shiv Sena",
+    "Areas": "Gandhi Nagar – Dawn Mills"
+  },
+  {
+    "ward_number": "192",
+    "name": "G/South Ward",
+    "Candidate Name": "Priti Prakash Patankar",
+    "Party": "Shiv Sena",
+    "Areas": "Mahalaxmi Race Course – Nehru Planetarium"
+  },
+  {
+    "ward_number": "193",
+    "name": "G/South Ward",
+    "Candidate Name": "Hemangi Worlikar",
+    "Party": "Shiv Sena",
+    "Areas": "Shanti Nagar – Arthur Road Jail"
+  },
+  {
+    "ward_number": "194",
+    "name": "G/South Ward",
+    "Candidate Name": "Samadhan Sarwankar",
+    "Party": "Shiv Sena",
+    "Areas": "Parel BDD Chawls"
+  },
+  {
+    "ward_number": "195",
+    "name": "F/South Ward",
+    "Candidate Name": "Santosh Kharat",
+    "Party": "Shiv Sena",
+    "Areas": "Ranjeet Studio – Naigaum BDD Chawl"
+  },
+  {
+    "ward_number": "196",
+    "name": "F/South Ward",
+    "Candidate Name": "Ashish Chemburkar",
+    "Party": "MNS",
+    "Areas": "Naigaum Police Parade Ground – BPT Hospital"
+  },
+  {
+    "ward_number": "197",
+    "name": "F/South Ward",
+    "Candidate Name": "Dattaram Shivaram Narvankar",
+    "Party": "MNS",
+    "Areas": "Mahatma Gandhi Hospital – Bhoiwada"
+  },
+  {
+    "ward_number": "198",
+    "name": "F/South Ward",
+    "Candidate Name": "Snehal Ambekar",
+    "Party": "Shiv Sena",
+    "Areas": "Indian United Mills – Nare Park"
+  },
+  {
+    "ward_number": "199",
+    "name": "F/South Ward",
+    "Candidate Name": "Kishori Pednekar",
+    "Party": "Shiv Sena",
+    "Areas": "KEM Hospital – Raj Kamal Studio"
+  },
+  {
+    "ward_number": "200",
+    "name": "F/South Ward",
+    "Candidate Name": "Urmila Panchal",
+    "Party": "Shiv Sena",
+    "Areas": "Veterinary Hospital – Abhyudaya Nagar"
+  },
+  {
+    "ward_number": "201",
+    "name": "F/South Ward",
+    "Candidate Name": "More Supriya",
+    "Party": "Congress",
+    "Areas": "Cotton Green – Sewri Fort"
+  },
+  {
+    "ward_number": "202",
+    "name": "E Ward",
+    "Candidate Name": "Shraddha Jadhav",
+    "Party": "Shiv Sena",
+    "Areas": "Veer Jijamata Udyan – Ghodapdeo – Mazagaon Docks (N)"
+  },
+  {
+    "ward_number": "203",
+    "name": "E Ward",
+    "Candidate Name": "Datta Phongade",
+    "Party": "Shiv Sena",
+    "Areas": "Kasturba Hospital – India United Mills"
+  },
+  {
+    "ward_number": "204",
+    "name": "E Ward",
+    "Candidate Name": "Anil Kokil",
+    "Party": "Shiv Sena",
+    "Areas": "Byculla Railway Station – Municipal Housing Quarters"
+  },
+  {
+    "ward_number": "205",
+    "name": "E Ward",
+    "Candidate Name": "Sindhu Masurkar",
+    "Party": "Shiv Sena",
+    "Areas": "Nair Hospital – Byculla Fire Brigade"
+  },
+  {
+    "ward_number": "206",
+    "name": "E Ward",
+    "Candidate Name": "Sachin Devdas Padwal",
+    "Party": "Shiv Sena",
+    "Areas": "Mazagaon Court – Madan pura"
+  },
+  {
+    "ward_number": "207",
+    "name": "E Ward",
+    "Candidate Name": "Surekha Rohitdas Lokhande",
+    "Party": "BJP",
+    "Areas": "Anjeer wadi – Dockyards – Mazagaon Docks (S)"
+  },
+  {
+    "ward_number": "208",
+    "name": "E Ward",
+    "Candidate Name": "Ramakant Sakharam Rahate",
+    "Party": "Shiv Sena",
+    "Areas": "Mastan Tank – JJ Hospital – Vikrikar Bhavan"
+  },
+  {
+    "ward_number": "209",
+    "name": "E Ward",
+    "Candidate Name": "Yashwant Jadhav",
+    "Party": "Shiv Sena",
+    "Areas": "Kamathipura"
+  },
+  {
+    "ward_number": "210",
+    "name": "D Ward",
+    "Candidate Name": "Jamsutkar Sonam Manoj",
+    "Party": "Congress",
+    "Areas": "Bellasis chawl – Navjivan Society"
+  },
+  {
+    "ward_number": "211",
+    "name": "D Ward",
+    "Candidate Name": "Raees Kasam Sheikh",
+    "Party": "SP",
+    "Areas": "Wellington Sports Club – Bhatia Hospital"
+  },
+  {
+    "ward_number": "212",
+    "name": "D Ward",
+    "Candidate Name": "Geeta Gavli",
+    "Party": "Akhil Bhartiya Sena",
+    "Areas": "Mahalaxmi – Air Conditioned Market – Oomar Park"
+  },
+  {
+    "ward_number": "213",
+    "name": "D Ward",
+    "Candidate Name": "Javed Juneja",
+    "Party": "Congress",
+    "Areas": "Priya Darshani Garden – August Kranti Maidan"
+  },
+  {
+    "ward_number": "214",
+    "name": "D Ward",
+    "Candidate Name": "Ajay Patil",
+    "Party": "BJP",
+    "Areas": "Kamla Nehru Park – Raj Bhavan"
+  },
+  {
+    "ward_number": "215",
+    "name": "D Ward",
+    "Candidate Name": "Arundhati Dudhwadkar",
+    "Party": "Shiv Sena",
+    "Areas": "Prarthana Samaj – Opera House"
+  },
+  {
+    "ward_number": "216",
+    "name": "D Ward",
+    "Candidate Name": "Rajendra Narvankar",
+    "Party": "Congress",
+    "Areas": "Harkisandas Hospital – Khetwadi"
+  },
+  {
+    "ward_number": "217",
+    "name": "C Ward",
+    "Candidate Name": "Meena Patil",
+    "Party": "BJP",
+    "Areas": "Durgadevi Udyan – Madhav Baug – Bhuleshwar"
+  },
+  {
+    "ward_number": "218",
+    "name": "C Ward",
+    "Candidate Name": "Anuradha Pddar",
+    "Party": "BJP",
+    "Areas": "Chandanwadi – Chira bazaar – Gymkhanas"
+  },
+  {
+    "ward_number": "219",
+    "name": "C Ward",
+    "Candidate Name": "Jyotsana Mehta",
+    "Party": "BJP",
+    "Areas": "Mumbadevi – Mulji Jetha Market – Dhobi Talao"
+  },
+  {
+    "ward_number": "220",
+    "name": "C Ward",
+    "Candidate Name": "Shah Atul Hasmukhlal",
+    "Party": "BJP",
+    "Areas": "Khara Talao – Nul Bazar – Ghoghari Mohalla"
+  },
+  {
+    "ward_number": "221",
+    "name": "B Ward",
+    "Candidate Name": "Purohit Akash Raj",
+    "Party": "BJP",
+    "Areas": "Imamwada – Dongri"
+  },
+  {
+    "ward_number": "222",
+    "name": "B Ward",
+    "Candidate Name": "Makwana Rita Bharat",
+    "Party": "BJP",
+    "Areas": "Bengalipura – Princess Dock"
+  },
+  {
+    "ward_number": "223",
+    "name": "B Ward",
+    "Candidate Name": "Gyanraj Nikita Nikam",
+    "Party": "Congress",
+    "Areas": "Musafir Khana – Victoria Docks"
+  },
+  {
+    "ward_number": "224",
+    "name": "A Ward",
+    "Candidate Name": "Afreen Lakdawala",
+    "Party": "Congress",
+    "Areas": "Mahatma Phule Market – Churchgate – Museum – Indira Docks"
+  },
+  {
+    "ward_number": "225",
+    "name": "A Ward",
+    "Candidate Name": "Sanap Sujata Digvijay",
+    "Party": "Shiv Sena",
+    "Areas": "Brabourne Stadium – Colaba Market – Gateway of India"
+  },
+  {
+    "ward_number": "226",
+    "name": "A Ward",
+    "Candidate Name": "Harshita Narvekar",
+    "Party": "BJP",
+    "Areas": "Sasoon Docks – World trade Centre – Geeta Nagar"
+  },
+  {
+    "ward_number": "227",
+    "name": "A Ward",
+    "Candidate Name": "Makrand Narvekar",
+    "Party": "BJP",
+    "Areas": "RC Church – Colaba Dandi – Navy Nagar"
+  }
+]
