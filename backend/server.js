@@ -24,6 +24,7 @@ app.get("/api/geojson/:year", async (req, res) => {
 
   const geojsonPath = path.join(
     __dirname,
+    "backend",
     "public",
     "data",
     `bmc_${year}_cleaned.geojson`
