@@ -103,7 +103,8 @@ export default function MumbaiWardMap() {
     setGeoData(null);
     colorCache.clear();
 
-    fetch(`http://localhost:5000/api/geojson/${selectedYear}`)
+    const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:5000";
+    fetch(`${API_BASE_URL}/api/geojson/${selectedYear}`)
       .then((res) => res.json())
       .then(({ geojson, attributes }) => {
         if (!isMounted) return;
