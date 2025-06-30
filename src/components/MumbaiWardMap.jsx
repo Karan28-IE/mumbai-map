@@ -192,20 +192,19 @@ export default function MumbaiWardMap() {
       </MapContainer>
 
       <div className="year-selector">
-        <div className="year-title">Select the year</div>
-        <div className="year-buttons">
-          {YEARS.map((year) => (
-            <button
-              key={year}
-              className={`year-button ${year === selectedYear ? "active" : ""}`}
-              onClick={() => setSelectedYear(year)}
-            >
-              {year}
-            </button>
-          ))}
+  <div className="year-title">Select the year</div>
+  <select
+    className="year-dropdown"
+    value={selectedYear}
+    onChange={(e) => setSelectedYear(e.target.value)}>
+      {YEARS.map((year) => (
+        <option key={year} value={year}>
+          {year}
+          </option>
+        ))}
+        </select>
         </div>
-      </div>
-
+        
       <div className="sidebar">
         <h3>Seats by Party ({selectedYear})</h3>
         <table className="party-table">
