@@ -6,8 +6,8 @@ export const SHEET_CONFIG = {
     gid: "1191731829",
   },
   "2012": {
-    sheetId: "your_sheet_id_for_2012",
-    gid: "your_gid_for_2012",
+    sheetId: "1tEkg-BDAaTO43J4TlnxMvGTQyQ4jMIAqL56iFN3DI2Q",
+    gid: "0",
   },
   "2007": {
     sheetId: "your_sheet_id_for_2007",

@@ -1,4 +1,4 @@
-export const defaultWardColor = "#e0e0e0";
+export const defaultWardColor = "#FFF";
 
 export const partyColors = {
   BJP: "#FF9933",
