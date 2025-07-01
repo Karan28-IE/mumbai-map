@@ -10,7 +10,7 @@ export const SHEET_CONFIG = {
     gid: "0",
   },
   "2007": {
-    sheetId: "your_sheet_id_for_2007",
-    gid: "your_gid_for_2007",
+    sheetId: "1TUhn2J6IsJLiHvD2tJ9XyiILCdP9-SCMbH3-fb33I1k",
+    gid: "0",
   },
 };
