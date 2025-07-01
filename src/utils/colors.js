@@ -28,6 +28,7 @@ export const partyLogos = {
   ShivSena: "/logos/ShivSena.png",
   Shivsena: "/logos/ShivSena.png",
   SHS: "/logos/shs.png",
+  SS: "/logos/ss.png",
   SP: "/logos/sp.png",
 };
 
