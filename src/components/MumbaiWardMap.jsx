@@ -110,15 +110,16 @@ export default function MumbaiWardMap() {
     const partyColor = getPartyColor(party, wardId);
 
     const infoHTML = `
-      <div style="text-align: left;">
-        <strong>Name:</strong> ${name}<br/>
-        <strong>Ward:</strong> ${ward_number}<br/>
-        <strong>Candidate:</strong> ${candidate}<br/>
-        <strong>Party:</strong> ${party}<br/>
-        <img src="${logoUrl}" alt="${party}" style="width: 40px; height: 40px; border-radius: 50%;" /><br/>
-        <strong>Areas:</strong> ${areas}
-      </div>
-    `;
+  <div class="popup-content">
+    <img src="${logoUrl}" alt="${party}" class="party-logo-top" />
+    <strong>Name:</strong> ${name}<br/>
+    <strong>Ward:</strong> ${ward_number}<br/>
+    <strong>Candidate:</strong> <span class="bmc-areas-text">${candidate}</span><br/>
+    <strong>Party:</strong> ${party}<br/>
+    <strong>Areas:</strong> <span class="bmc-areas-text">${areas}</span>
+  </div>
+`;
+
 
     if (!isTouchDevice()) {
       layer.bindTooltip(infoHTML, {

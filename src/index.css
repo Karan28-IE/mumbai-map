@@ -100,6 +100,27 @@ code {
   font-size: 14px;
   text-align: center;
 }
+.popup-content {
+  position: relative;
+  width: 220px;
+}
+
+.party-logo-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.bmc-areas-text{
+  display: inline;
+  max-width: 220px;           /* adjust as needed */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
 
 
 @media (max-width: 767px) {
@@ -124,4 +145,11 @@ code {
   .sidebar{
     display: none;
   }
+  .popup-content {
+    width: 178px;
+  }
+  .party-logo-top {
+    top: -11px;
+  }
 }
+

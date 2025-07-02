@@ -30,6 +30,8 @@ export const partyLogos = {
   SHS: "/logos/shs.png",
   SS: "/logos/ss.png",
   SP: "/logos/sp.png",
+  OTH: "/logos/oth.png",
+  Unknown: "/logos/oth.png",
 };
 
 const colorCache = new Map();
