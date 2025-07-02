@@ -68,7 +68,8 @@ export default function MumbaiWardMap() {
         const attributes = parsed.data;
 
         geojson.features.forEach((feature) => {
-          const wardId = feature.properties?.ward_number || feature.properties?.name;
+          const wardId =
+            feature.properties?.ward_number || feature.properties?.name;
           const match = attributes.find(
             (attr) =>
               attr.ward_number === wardId ||
@@ -95,7 +96,9 @@ export default function MumbaiWardMap() {
 
     fetchData();
 
-    return () => { isMounted = false; };
+    return () => {
+      isMounted = false;
+    };
   }, [selectedYear]);
 
   const onEachFeature = (feature, layer) => {
@@ -119,7 +122,6 @@ export default function MumbaiWardMap() {
     <strong>Areas:</strong> <span class="bmc-areas-text">${areas}</span>
   </div>
 `;
-
 
     if (!isTouchDevice()) {
       layer.bindTooltip(infoHTML, {
@@ -162,7 +164,13 @@ export default function MumbaiWardMap() {
       {/* Gradients */}
       <svg style={{ position: "absolute", width: 0, height: 0 }}>
         <defs>
-          <linearGradient id="congressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <linearGradient
+            id="congressGradient"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="100%"
+          >
             <stop offset="30%" stopColor="#EE5A1C" />
             <stop offset="50%" stopColor="#FFFFFF" />
             <stop offset="100%" stopColor="#166A2F" />
@@ -193,19 +201,20 @@ export default function MumbaiWardMap() {
       </MapContainer>
 
       <div className="year-selector">
-  <div className="year-title">Select the year</div>
-  <select
-    className="year-dropdown"
-    value={selectedYear}
-    onChange={(e) => setSelectedYear(e.target.value)}>
-      {YEARS.map((year) => (
-        <option key={year} value={year}>
-          {year}
-          </option>
-        ))}
+        <div className="year-title">Select the year</div>
+        <select
+          className="year-dropdown"
+          value={selectedYear}
+          onChange={(e) => setSelectedYear(e.target.value)}
+        >
+          {YEARS.map((year) => (
+            <option key={year} value={year}>
+              {year}
+            </option>
+          ))}
         </select>
-        </div>
-        
+      </div>
+
       <div className="sidebar">
         <h3>Seats by Party ({selectedYear})</h3>
         <table className="party-table">
